@@ -1,4 +1,14 @@
 {
+  "name": "gpt-calc-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@google/genai": "^1.0.0",
     "axios": "^1.7.7",
